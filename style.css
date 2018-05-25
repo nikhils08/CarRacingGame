@@ -1,0 +1,98 @@
+body{
+    text-align: center;
+}
+
+#error{
+    position: relative;
+    background: rgba(255,100,100,0.4);
+    color: rgba(255,0,0,0.9);
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 18px;
+    left: 45%;
+}
+
+#cross{
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+/*RACE CARS*/
+
+#race-track{
+    background: url('img/road.jpg') center left repeat-x;
+    height: 330px;
+    box-sizing: border-box;
+    margin: 40px 0;
+    border-right: dashed 10px white;
+}
+
+.car{
+    position: relative;
+    display: block;
+}
+
+#car1{
+    top: 30px;
+}
+
+#car2{
+    top: 100px;
+}
+
+#race-info{
+    width: 80%;
+    margin: 40px auto;
+    background: #333;
+    height: 200px;
+}
+
+#race-info h2{
+    color: white;
+    text-transform: uppercase;
+    padding: 20px 0;
+    border-bottom: solid 1px white;
+}
+
+.raceInfo{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    width: 50%;
+    float: left;
+}
+
+.raceInfo span{
+    display: block;
+    font-weight: normal;
+    font-size: 18px;
+    color: white;
+}
+
+#raceInfo1{
+    color: #77BB2F;
+}
+
+#raceInfo2{
+    color: #B82F3E;
+}
+
+input[type="button"]{
+    background: #77BB2F;
+    color: white;
+    padding: 10px 20px;
+    border: solid 1px #444;
+    cursor: pointer;
+}
+input#reset{
+    background: #fc3;
+    color: #444;    
+}
+
+.clearfix:after{
+    content: '';
+    display: block;
+    clear: both;
+}
